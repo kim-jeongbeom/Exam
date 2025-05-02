@@ -1,0 +1,78 @@
+package oop.basic.chap05;
+
+public class ShopCustomer {
+		String name;
+		String addr;
+		int age;
+		String phone;
+			public static void main(String[] args) {
+		ShopCustomer c1 = new ShopCustomer();
+		
+		
+		c1.name = "송하영";
+		c1.addr = "광주";
+		c1.age = 29;
+		c1.phone = "010-1111-1111";
+		
+		System.out.println("----------------------------------");
+		System.out.println("성명:"+c1.name);
+		System.out.println("주소:"+c1.addr);
+		System.out.println("나이:"+c1.age);
+		System.out.println("번호:"+c1.phone);
+		System.out.println("----------------------------------");
+		
+		ShopCustomer c2 = new ShopCustomer();
+		
+		c2.name = "박지원";
+		c2.addr = "부산";
+		c2.age = 28;
+		c2.phone = "010-2222-2222";
+		
+		System.out.println("성명:"+c2.name);
+		System.out.println("주소:"+c2.addr);
+		System.out.println("나이:"+c2.age);
+		System.out.println("번호:"+c2.phone);
+		System.out.println("----------------------------------");
+		
+		ShopCustomer c3 = new ShopCustomer();
+		
+		c3.name = "이나경";
+		c3.addr = "광주";
+		c3.age = 26;
+		c3.phone = "010-3333-3333";
+		
+		System.out.println("성명:"+c3.name);
+		System.out.println("주소:"+c3.addr);
+		System.out.println("나이:"+c3.age);
+		System.out.println("번호:"+c3.phone);
+		System.out.println("----------------------------------");
+
+		
+		ShopCustomer c4 = new ShopCustomer();
+		
+		
+		c4.name = "이채영";
+		c4.addr = "울산";
+		c4.age = 26;
+		c4.phone = "010-4444-4444";
+		
+		System.out.println("성명:"+c4.name);
+		System.out.println("주소:"+c4.addr);
+		System.out.println("나이:"+c4.age);
+		System.out.println("번호:"+c4.phone);
+		System.out.println("----------------------------------");
+		
+		ShopCustomer c5 = new ShopCustomer();
+		
+		c5.name = "백지헌";
+		c5.addr = "보성";
+		c5.age = 23;
+		c5.phone = "010-5555-5555";
+		
+		System.out.println("성명:"+c5.name);
+		System.out.println("주소:"+c5.addr);
+		System.out.println("나이:"+c5.age);
+		System.out.println("번호:"+c5.phone);
+		System.out.println("----------------------------------");
+	}
+}
